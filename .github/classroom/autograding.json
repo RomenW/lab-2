@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "test1",
+      "setup": "",
+      "run": "python lab2.py",
+      "input": "100\r\n.15",
+      "output": "----------------------\r\nEnter price of food: $Enter tax rate in percent (e.g. .08 for 8%): Tax on food is $15.0\r\nTotal price is $115.0",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "test2",
+      "setup": "",
+      "run": "python lab2.py",
+      "input": "200\r\n.20",
+      "output": "----------------------\r\nEnter price of food: $Enter tax rate in percent (e.g. .08 for 8%): Tax on food is $40.0\r\nTotal price is $240.0",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "test3",
+      "setup": "",
+      "run": "python lab2.py",
+      "input": "50\r\n.10",
+      "output": "----------------------\r\nEnter price of food: $Enter tax rate in percent (e.g. .08 for 8%): Tax on food is $5.0\r\nTotal price is $55.0",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "test4",
+      "setup": "",
+      "run": "python lab2.py",
+      "input": "80\r\n.80",
+      "output": "----------------------\r\nEnter price of food: $Enter tax rate in percent (e.g. .08 for 8%): Tax on food is $64.0\r\nTotal price is $144.0",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "test5",
+      "setup": "",
+      "run": "python lab2.py",
+      "input": "20\r\n1",
+      "output": "----------------------\r\nEnter price of food: $Enter tax rate in percent (e.g. .08 for 8%): Tax on food is $20.0\r\nTotal price is $40.0",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
